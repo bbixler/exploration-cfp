@@ -1,7 +1,7 @@
 import { useLoaderData } from "remix";
 
 export async function loader() {
-  let res = await fetch("http://127.0.0.1:8788/helloworld");
+  let res = await fetch("https://exploration-cfp.pages.dev/helloworld");
   return res.json();
 }
 
